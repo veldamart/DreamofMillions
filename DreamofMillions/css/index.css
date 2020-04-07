@@ -7,7 +7,7 @@ body {
     font-size: 100%;
     line-height: 1.6;
     font-family: Arial, Helvetica, sans-serif;
-    /*color: #fff;*/
+    color: #535f54;
     text-align: left;
 }
 .xop-container {
@@ -23,9 +23,8 @@ div {
     background-position: center;
     flex: 1;
     padding: 1rem;
-    background-image: url('../Image/apartments.jpg');
-    color: #fff;
- }
+    }
+
 .xop-right {
     background-size: cover;
     background-position: center;
