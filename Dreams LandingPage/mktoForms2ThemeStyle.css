@@ -1,0 +1,63 @@
+﻿<style >/* Add your custom CSS below */
+.mktoForm .mktoButtonWrap.mktoPaperMashup button.mktoButton {
+    background: #67cad9;
+    width: 100%;
+    font-size: 2em;
+    border: 1px solid #5ebfc9;
+}
+
+.mktoForm .mktoButtonWrap.mktoPaperMashup .mktoButton {
+    background: #67cad9;
+    width: 100%;
+    font-size: 2em;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #5ebfc9;
+}
+
+.mktoButton {
+    float: left;
+    background: #67cad9 !important;
+    margin-top: 10px !important;
+}
+
+    .mktoButton:hover {
+        background: #5ebfc9 !important;
+    }
+
+.mktoForm {
+    text-align: left;
+    position: relative;
+    margin: 0 auto;
+}
+
+.mktoButtonWrap {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mktoButtonRow {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mktoForm .mktoOffset {
+    height: 0.5em !important;
+}
+
+.mktoForm label {
+    padding-bottom: 2px;
+}
+
+.mktoForm {
+    width: 330px !important;
+    border: 1px solid #cecdcc;
+    border-radius: 5px;
+    padding: 15px;
+    background: #ffffff;
+}
+
+</style >

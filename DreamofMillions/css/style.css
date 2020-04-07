@@ -1,0 +1,65 @@
+﻿body {
+    background-image: url('../Image/kitchen.png');
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+form {
+    /*background-color:rgba(45, 34, 136, 0.68);*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+    margin-top: 90px;
+    padding-bottom: 60px;
+    color: white;
+    width: 40vw;
+    margin: 0 auto;
+    height: 70vh;
+}
+
+label {
+    /*display: inline-block;*/
+    float: left;
+    width: 200px;
+}
+
+input {
+    /*display: inline-block;*/
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+   #btn_Add {
+    float: left;
+    width: 20%;
+    padding: 0 0 5px 10px;
+    margin:  0 10px 0 10px;
+}
+
+.form-control {
+    background-color: rgba(14,14,14,0.35);
+    border-radius: 0;
+    color: #fff;
+}
+
+#chkMe {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+input[type="button"] {
+    float: left;
+    width: 25%;
+    padding: 0 0 0 0;
+}
+
+
+.ErrorMessage {
+    font-size: 1.5em;
+}

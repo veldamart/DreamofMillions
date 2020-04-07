@@ -1,0 +1,96 @@
+﻿html, body, section {
+    height: 100%
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    /*color: #fff;*/
+    text-align: left;
+}
+.xop-container {
+    display: flex;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   }
+.xop-left {
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    background-image: url('../Image/apartments.jpg');
+    color: #fff;
+ }
+.xop-right {
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    color: #fff;
+    background-image: url('../Image/Tenants.jpg');
+}
+
+ h2 {
+    font-family: 'Rock Salt' cursive;
+    text-align: center;
+    }
+li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 15px;
+    }
+li:before {
+    content: "\25BA \0020";
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    color: #535f54;
+    }
+.xop-button {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #fcad26;
+    padding: 1.5%;
+    margin: 0 -28%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.xop_button:hover{
+    background: #fcc567;
+    color: #fff;
+    }
+.xop-loginbutton {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #fcad26;
+    padding: 1.5%;
+    margin: 0.-28%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+.xop-loginbutton {
+    background: #fcc567;
+    color: #fff;
+   }
